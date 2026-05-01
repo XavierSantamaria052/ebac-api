@@ -1,0 +1,6 @@
+com\ebac\api\App.class
+com\ebac\api\model\Telefono$TelefonoBuilder.class
+com\ebac\api\model\Telefono.class
+com\ebac\api\model\Usuario.class
+com\ebac\api\model\Usuario$UsuarioBuilder.class
+com\ebac\api\controller\UsuarioController.class
