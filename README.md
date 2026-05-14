@@ -21,20 +21,19 @@ API REST desarrollada con Java y Spring Boot para gestión de recursos utilizand
 # Arquitectura del proyecto
 
 La aplicación sigue una arquitectura basada en capas:
-
+```text
 ┌──────────────────────────────┐
-│        Controllers           │ ← Endpoints REST
+│         Controllers          │ ← Endpoints REST
 ├──────────────────────────────┤
-│         Services             │ ← Lógica de negocio
+│          Services            │ ← Lógica de negocio
 ├──────────────────────────────┤
-│       Repositories           │ ← Acceso a datos
+│        Repositories          │ ← Acceso a datos
 ├──────────────────────────────┤
-│         Entities             │ ← Modelo de dominio
+│          Entities            │ ← Modelo de dominio
 ├──────────────────────────────┤
-│        Base de datos         │ ← Persistencia
+│       Base de datos          │ ← Persistencia
 └──────────────────────────────┘
-
----
+```
 
 # Tecnologías
 
