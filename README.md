@@ -51,22 +51,31 @@ La aplicación sigue una arquitectura basada en capas:
 
 # Estructura del proyecto
 
+```text
 ebac-api/
 ├── pom.xml
+├── README.md
 ├── src/
 │   ├── main/
 │   │   ├── java/com/ebac/
-│   │   │   ├── controller/
-│   │   │   ├── service/
-│   │   │   ├── repository/
-│   │   │   ├── model/
+│   │   │   ├── controller/        ← Endpoints REST
+│   │   │   ├── service/           ← Lógica de negocio
+│   │   │   ├── repository/        ← Acceso a datos
+│   │   │   ├── model/             ← Entidades
+│   │   │   ├── config/            ← Configuración Spring
 │   │   │   └── EbacApiApplication.java
+│   │   │
 │   │   └── resources/
-│   │       └── application.properties
+│   │       ├── application.properties
+│   │       └── static/
+│   │
 │   └── test/
-│       └── java/
-
----
+│       └── java/com/ebac/
+│           ├── service/
+│           └── controller/
+│
+└── target/
+```
 
 # Configuración
 
