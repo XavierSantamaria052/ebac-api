@@ -1,4 +1,4 @@
-EBAC API — Proyecto REST con Spring Boot
+# EBAC API — Proyecto REST con Spring Boot
 
 API REST desarrollada con Java y Spring Boot para gestión de recursos utilizando arquitectura en capas, serialización JSON y endpoints CRUD.
 
